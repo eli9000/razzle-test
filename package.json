@@ -1,0 +1,39 @@
+{
+  "name": "my-razzle-app",
+  "version": "4.0.4",
+  "license": "MIT",
+  "scripts": {
+    "start": "razzle start",
+    "build": "razzle build",
+    "test": "razzle test --env=jsdom",
+    "start:prod": "NODE_ENV=production node build/server.js"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link-context": "^1.0.20",
+    "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "formik": "^2.2.6",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.11.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^17.0.2",
+    "react-notifications": "^1.7.2",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "swiper": "^6.5.7"
+  },
+  "devDependencies": {
+    "babel-preset-razzle": "4.0.4",
+    "html-webpack-plugin": "^4.5.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "razzle": "^4.0.4",
+    "razzle-dev-utils": "^4.0.4",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
